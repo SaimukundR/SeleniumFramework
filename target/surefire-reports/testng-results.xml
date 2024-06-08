@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-08T08:36:48 IST" name="Suite" finished-at="2024-06-08T08:38:02 IST" duration-ms="74331">
+  <suite started-at="2024-06-08T13:39:26 IST" name="Suite" finished-at="2024-06-08T13:41:06 IST" duration-ms="99189">
     <groups>
       <group name="Retail">
         <method signature="FirstE2ETest2.E2ETest(java.util.HashMap)[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" name="E2ETest" class="AutomationFrameworkDesign.Tests.FirstE2ETest2"/>
@@ -11,41 +11,41 @@
         <method signature="ErrorValidations.loginErrorValidation()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" name="loginErrorValidation" class="AutomationFrameworkDesign.Tests.ErrorValidations"/>
       </group> <!-- errorHandling -->
     </groups>
-    <test started-at="2024-06-08T08:36:48 IST" name="Error Validation Test" finished-at="2024-06-08T08:37:27 IST" duration-ms="38910">
+    <test started-at="2024-06-08T13:39:26 IST" name="Error Validation Test" finished-at="2024-06-08T13:40:11 IST" duration-ms="44634">
       <class name="AutomationFrameworkDesign.Tests.ErrorValidations">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T08:36:48 IST" name="launchApplication" finished-at="2024-06-08T08:37:17 IST" duration-ms="28797" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T13:39:27 IST" name="launchApplication" finished-at="2024-06-08T13:40:00 IST" duration-ms="33574" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="loginErrorValidation()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T08:37:17 IST" name="loginErrorValidation" finished-at="2024-06-08T08:37:18 IST" duration-ms="1469" status="PASS">
+        <test-method signature="loginErrorValidation()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T13:40:00 IST" name="loginErrorValidation" finished-at="2024-06-08T13:40:01 IST" duration-ms="1039" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginErrorValidation -->
-        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T08:37:18 IST" name="closeTabs" finished-at="2024-06-08T08:37:20 IST" duration-ms="1617" status="PASS">
+        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T13:40:01 IST" name="closeTabs" finished-at="2024-06-08T13:40:02 IST" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTabs -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T08:37:20 IST" name="launchApplication" finished-at="2024-06-08T08:37:26 IST" duration-ms="6094" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T13:40:02 IST" name="launchApplication" finished-at="2024-06-08T13:40:10 IST" duration-ms="7856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="productErrorValidation()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T08:37:26 IST" name="productErrorValidation" finished-at="2024-06-08T08:37:27 IST" duration-ms="419" status="PASS">
+        <test-method signature="productErrorValidation()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T13:40:10 IST" name="productErrorValidation" finished-at="2024-06-08T13:40:10 IST" duration-ms="795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productErrorValidation -->
-        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T08:37:27 IST" name="closeTabs" finished-at="2024-06-08T08:37:27 IST" duration-ms="384" status="PASS">
+        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.ErrorValidations@f316aeb]" started-at="2024-06-08T13:40:10 IST" name="closeTabs" finished-at="2024-06-08T13:40:11 IST" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTabs -->
       </class> <!-- AutomationFrameworkDesign.Tests.ErrorValidations -->
     </test> <!-- Error Validation Test -->
-    <test started-at="2024-06-08T08:36:48 IST" name="E2E Test" finished-at="2024-06-08T08:38:02 IST" duration-ms="74331">
+    <test started-at="2024-06-08T13:39:26 IST" name="E2E Test" finished-at="2024-06-08T13:41:06 IST" duration-ms="99189">
       <class name="AutomationFrameworkDesign.Tests.FirstE2ETest2">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:36:50 IST" name="launchApplication" finished-at="2024-06-08T08:37:17 IST" duration-ms="26523" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:39:27 IST" name="launchApplication" finished-at="2024-06-08T13:40:10 IST" duration-ms="42758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="E2ETest(java.util.HashMap)[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:37:17 IST" name="E2ETest" data-provider="getData" finished-at="2024-06-08T08:37:28 IST" duration-ms="11012" status="PASS">
+        <test-method signature="E2ETest(java.util.HashMap)[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:40:10 IST" name="E2ETest" data-provider="getData" finished-at="2024-06-08T13:40:25 IST" duration-ms="15421" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,15 +56,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- E2ETest -->
-        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:37:28 IST" name="closeTabs" finished-at="2024-06-08T08:37:28 IST" duration-ms="342" status="PASS">
+        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:40:25 IST" name="closeTabs" finished-at="2024-06-08T13:40:25 IST" duration-ms="323" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTabs -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:37:28 IST" name="launchApplication" finished-at="2024-06-08T08:37:34 IST" duration-ms="6025" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:40:25 IST" name="launchApplication" finished-at="2024-06-08T13:40:34 IST" duration-ms="8633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="E2ETest(java.util.HashMap)[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:37:34 IST" name="E2ETest" data-provider="getData" finished-at="2024-06-08T08:37:49 IST" duration-ms="14222" status="PASS">
+        <test-method signature="E2ETest(java.util.HashMap)[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:40:34 IST" name="E2ETest" data-provider="getData" finished-at="2024-06-08T13:40:49 IST" duration-ms="14563" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- E2ETest -->
-        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:37:49 IST" name="closeTabs" finished-at="2024-06-08T08:37:49 IST" duration-ms="287" status="PASS">
+        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:40:49 IST" name="closeTabs" finished-at="2024-06-08T13:40:49 IST" duration-ms="252" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTabs -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:37:49 IST" name="launchApplication" finished-at="2024-06-08T08:37:53 IST" duration-ms="4542" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:40:49 IST" name="launchApplication" finished-at="2024-06-08T13:40:56 IST" duration-ms="7447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistory(java.util.HashMap)[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:37:53 IST" name="orderHistory" data-provider="getData" finished-at="2024-06-08T08:37:55 IST" depends-on-methods="AutomationFrameworkDesign.Tests.FirstE2ETest2.E2ETest" duration-ms="1109" status="PASS">
+        <test-method signature="orderHistory(java.util.HashMap)[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:40:56 IST" name="orderHistory" data-provider="getData" finished-at="2024-06-08T13:40:58 IST" depends-on-methods="AutomationFrameworkDesign.Tests.FirstE2ETest2.E2ETest" duration-ms="1203" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,15 +94,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistory -->
-        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:37:55 IST" name="closeTabs" finished-at="2024-06-08T08:37:55 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:40:58 IST" name="closeTabs" finished-at="2024-06-08T13:40:58 IST" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTabs -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:37:55 IST" name="launchApplication" finished-at="2024-06-08T08:38:01 IST" duration-ms="6516" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:40:58 IST" name="launchApplication" finished-at="2024-06-08T13:41:05 IST" duration-ms="6805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="orderHistory(java.util.HashMap)[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:38:01 IST" name="orderHistory" data-provider="getData" finished-at="2024-06-08T08:38:02 IST" depends-on-methods="AutomationFrameworkDesign.Tests.FirstE2ETest2.E2ETest" duration-ms="856" status="PASS">
+        <test-method signature="orderHistory(java.util.HashMap)[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:41:05 IST" name="orderHistory" data-provider="getData" finished-at="2024-06-08T13:41:05 IST" depends-on-methods="AutomationFrameworkDesign.Tests.FirstE2ETest2.E2ETest" duration-ms="853" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,7 +113,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistory -->
-        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T08:38:02 IST" name="closeTabs" finished-at="2024-06-08T08:38:02 IST" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="closeTabs()[pri:0, instance:AutomationFrameworkDesign.Tests.FirstE2ETest2@7e4204e2]" started-at="2024-06-08T13:41:05 IST" name="closeTabs" finished-at="2024-06-08T13:41:06 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTabs -->
