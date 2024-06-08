@@ -13,6 +13,7 @@ import AutomationTesting.TestComponents.BaseTest;
 import AutomationTesting.TestComponents.Retry;
 
 public class ErrorValidations extends BaseTest {
+	//New comments added
 	ExtentReports extent = new ExtentReports();
 	@Test(groups= {"errorHandling"}, retryAnalyzer= Retry.class)
 	public void loginErrorValidation() throws IOException, InterruptedException{
