@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+<listeners>
+<listener class-name="AutomationTesting.TestComponents.Listeners"></listener>
+</listeners>
+  <test thread-count="5" name="E2E Test">
+  <classes> <class name="AutomationFrameworkDesign.Tests.FirstE2ETest2"></class></classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="Error Validation Test">
+  <classes> <class name="AutomationFrameworkDesign.Tests.ErrorValidations"></class></classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+         
+         
